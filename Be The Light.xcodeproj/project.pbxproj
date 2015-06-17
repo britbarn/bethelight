@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592195071B30FCFA00E4C3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592195061B30FCFA00E4C3C4 /* AppDelegate.swift */; };
+		592195091B30FCFA00E4C3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592195081B30FCFA00E4C3C4 /* ViewController.swift */; };
+		5921950C1B30FCFA00E4C3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5921950A1B30FCFA00E4C3C4 /* Main.storyboard */; };
+		5921950E1B30FCFA00E4C3C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5921950D1B30FCFA00E4C3C4 /* Images.xcassets */; };
+		592195111B30FCFA00E4C3C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5921950F1B30FCFA00E4C3C4 /* LaunchScreen.xib */; };
+		5921951D1B30FCFA00E4C3C4 /* Be_The_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921951C1B30FCFA00E4C3C4 /* Be_The_LightTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592195171B30FCFA00E4C3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592194F91B30FCFA00E4C3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592195001B30FCFA00E4C3C4;
+			remoteInfo = "Be The Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		592195011B30FCFA00E4C3C4 /* Be The Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be The Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592195051B30FCFA00E4C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592195061B30FCFA00E4C3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		592195081B30FCFA00E4C3C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5921950B1B30FCFA00E4C3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5921950D1B30FCFA00E4C3C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		592195101B30FCFA00E4C3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		592195161B30FCFA00E4C3C4 /* Be The LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be The LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5921951B1B30FCFA00E4C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5921951C1B30FCFA00E4C3C4 /* Be_The_LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_The_LightTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592194FE1B30FCFA00E4C3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592195131B30FCFA00E4C3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592194F81B30FCFA00E4C3C4 = {
+			isa = PBXGroup;
+			children = (
+				592195031B30FCFA00E4C3C4 /* Be The Light */,
+				592195191B30FCFA00E4C3C4 /* Be The LightTests */,
+				592195021B30FCFA00E4C3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		592195021B30FCFA00E4C3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592195011B30FCFA00E4C3C4 /* Be The Light.app */,
+				592195161B30FCFA00E4C3C4 /* Be The LightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592195031B30FCFA00E4C3C4 /* Be The Light */ = {
+			isa = PBXGroup;
+			children = (
+				592195061B30FCFA00E4C3C4 /* AppDelegate.swift */,
+				592195081B30FCFA00E4C3C4 /* ViewController.swift */,
+				5921950A1B30FCFA00E4C3C4 /* Main.storyboard */,
+				5921950D1B30FCFA00E4C3C4 /* Images.xcassets */,
+				5921950F1B30FCFA00E4C3C4 /* LaunchScreen.xib */,
+				592195041B30FCFA00E4C3C4 /* Supporting Files */,
+			);
+			path = "Be The Light";
+			sourceTree = "<group>";
+		};
+		592195041B30FCFA00E4C3C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				592195051B30FCFA00E4C3C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		592195191B30FCFA00E4C3C4 /* Be The LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				5921951C1B30FCFA00E4C3C4 /* Be_The_LightTests.swift */,
+				5921951A1B30FCFA00E4C3C4 /* Supporting Files */,
+			);
+			path = "Be The LightTests";
+			sourceTree = "<group>";
+		};
+		5921951A1B30FCFA00E4C3C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5921951B1B30FCFA00E4C3C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592195001B30FCFA00E4C3C4 /* Be The Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592195201B30FCFA00E4C3C4 /* Build configuration list for PBXNativeTarget "Be The Light" */;
+			buildPhases = (
+				592194FD1B30FCFA00E4C3C4 /* Sources */,
+				592194FE1B30FCFA00E4C3C4 /* Frameworks */,
+				592194FF1B30FCFA00E4C3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be The Light";
+			productName = "Be The Light";
+			productReference = 592195011B30FCFA00E4C3C4 /* Be The Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592195151B30FCFA00E4C3C4 /* Be The LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592195231B30FCFA00E4C3C4 /* Build configuration list for PBXNativeTarget "Be The LightTests" */;
+			buildPhases = (
+				592195121B30FCFA00E4C3C4 /* Sources */,
+				592195131B30FCFA00E4C3C4 /* Frameworks */,
+				592195141B30FCFA00E4C3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592195181B30FCFA00E4C3C4 /* PBXTargetDependency */,
+			);
+			name = "Be The LightTests";
+			productName = "Be The LightTests";
+			productReference = 592195161B30FCFA00E4C3C4 /* Be The LightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592194F91B30FCFA00E4C3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Brittany Barnes";
+				TargetAttributes = {
+					592195001B30FCFA00E4C3C4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					592195151B30FCFA00E4C3C4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 592195001B30FCFA00E4C3C4;
+					};
+				};
+			};
+			buildConfigurationList = 592194FC1B30FCFA00E4C3C4 /* Build configuration list for PBXProject "Be The Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592194F81B30FCFA00E4C3C4;
+			productRefGroup = 592195021B30FCFA00E4C3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592195001B30FCFA00E4C3C4 /* Be The Light */,
+				592195151B30FCFA00E4C3C4 /* Be The LightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592194FF1B30FCFA00E4C3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5921950C1B30FCFA00E4C3C4 /* Main.storyboard in Resources */,
+				592195111B30FCFA00E4C3C4 /* LaunchScreen.xib in Resources */,
+				5921950E1B30FCFA00E4C3C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592195141B30FCFA00E4C3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592194FD1B30FCFA00E4C3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592195091B30FCFA00E4C3C4 /* ViewController.swift in Sources */,
+				592195071B30FCFA00E4C3C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592195121B30FCFA00E4C3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5921951D1B30FCFA00E4C3C4 /* Be_The_LightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592195181B30FCFA00E4C3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592195001B30FCFA00E4C3C4 /* Be The Light */;
+			targetProxy = 592195171B30FCFA00E4C3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5921950A1B30FCFA00E4C3C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5921950B1B30FCFA00E4C3C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5921950F1B30FCFA00E4C3C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592195101B30FCFA00E4C3C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5921951E1B30FCFA00E4C3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5921951F1B30FCFA00E4C3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592195211B30FCFA00E4C3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Be The Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		592195221B30FCFA00E4C3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Be The Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		592195241B30FCFA00E4C3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Be The LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be The Light.app/Be The Light";
+			};
+			name = Debug;
+		};
+		592195251B30FCFA00E4C3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Be The LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be The Light.app/Be The Light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592194FC1B30FCFA00E4C3C4 /* Build configuration list for PBXProject "Be The Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5921951E1B30FCFA00E4C3C4 /* Debug */,
+				5921951F1B30FCFA00E4C3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592195201B30FCFA00E4C3C4 /* Build configuration list for PBXNativeTarget "Be The Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592195211B30FCFA00E4C3C4 /* Debug */,
+				592195221B30FCFA00E4C3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		592195231B30FCFA00E4C3C4 /* Build configuration list for PBXNativeTarget "Be The LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592195241B30FCFA00E4C3C4 /* Debug */,
+				592195251B30FCFA00E4C3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592194F91B30FCFA00E4C3C4 /* Project object */;
+}
