@@ -1,31 +1,35 @@
 //
-//  ViewController.swift
+//  FrontPage.swift
 //  Be The Light
 //
 //  Created by Brittany Barnes on 6/16/15.
 //  Copyright (c) 2015 Brittany Barnes. All rights reserved.
 //
 
+import Foundation
 import UIKit
-
-class ViewController: UIViewController {
+class FrontPage:UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("view controller");
+        
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        // Do any additional setup after loading the view, typically from a nib.
-        }}
+            
+            // Uncomment to change the width of menu
+            //self.revealViewController().rearViewRevealWidth = 62
+        }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    /*
+    override func viewWillAppear(animated: Bool) {
+        navigationController?.navigationBarHidden = true
+        super.viewWillAppear(animated)
+   
     }
+        */}}
 
-
-}
 
