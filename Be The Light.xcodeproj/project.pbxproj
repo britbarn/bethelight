@@ -14,13 +14,19 @@
 		592195111B30FCFA00E4C3C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5921950F1B30FCFA00E4C3C4 /* LaunchScreen.xib */; };
 		5921951D1B30FCFA00E4C3C4 /* Be_The_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921951C1B30FCFA00E4C3C4 /* Be_The_LightTests.swift */; };
 		592195271B30FFE300E4C3C4 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195261B30FFE300E4C3C4 /* cover.png */; };
-		592195321B31035800E4C3C4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592195311B31035800E4C3C4 /* SWRevealViewController.m */; };
 		592195351B31088300E4C3C4 /* FrontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592195341B31088300E4C3C4 /* FrontPage.swift */; };
 		592195391B310B2B00E4C3C4 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195361B310B2B00E4C3C4 /* menu.png */; };
 		5921953A1B310B2B00E4C3C4 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195371B310B2B00E4C3C4 /* menu@2x.png */; };
 		5921953B1B310B2B00E4C3C4 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195381B310B2B00E4C3C4 /* menu@3x.png */; };
+		59BB68C71B5C048D001469C7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BB68C61B5C048D001469C7 /* SWRevealViewController.m */; };
 		59CAE8FA1B42094B00B93B56 /* E book cover volume 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59CAE8F91B42094B00B93B56 /* E book cover volume 2.jpg */; };
 		59CAE8FE1B420D2A00B93B56 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CAE8FD1B420D2A00B93B56 /* MenuController.swift */; };
+		59E30EA91B855FA0007A0B81 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E30EA81B855FA0007A0B81 /* Twitter.framework */; };
+		59E30EAF1B85620F007A0B81 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E30EAB1B85620F007A0B81 /* Fabric.framework */; };
+		59E30EB01B85620F007A0B81 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E30EAC1B85620F007A0B81 /* TwitterKit.framework */; };
+		59E30EB11B85620F007A0B81 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */; };
+		59E30EB21B85620F007A0B81 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E30EAE1B85620F007A0B81 /* TwitterCore.framework */; };
+		59E30EB61B8562FF007A0B81 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E30EB51B8562FF007A0B81 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,15 +51,21 @@
 		5921951B1B30FCFA00E4C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5921951C1B30FCFA00E4C3C4 /* Be_The_LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_The_LightTests.swift; sourceTree = "<group>"; };
 		592195261B30FFE300E4C3C4 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
-		592195301B31035800E4C3C4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		592195311B31035800E4C3C4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		592195331B3103D800E4C3C4 /* BeTheLight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeTheLight-Bridging-Header.h"; sourceTree = "<group>"; };
 		592195341B31088300E4C3C4 /* FrontPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPage.swift; sourceTree = "<group>"; };
 		592195361B310B2B00E4C3C4 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		592195371B310B2B00E4C3C4 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		592195381B310B2B00E4C3C4 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		59BB68C51B5C048D001469C7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		59BB68C61B5C048D001469C7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		59CAE8F91B42094B00B93B56 /* E book cover volume 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E book cover volume 2.jpg"; sourceTree = "<group>"; };
 		59CAE8FD1B420D2A00B93B56 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		59E30EA81B855FA0007A0B81 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		59E30EAB1B85620F007A0B81 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		59E30EAC1B85620F007A0B81 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		59E30EAE1B85620F007A0B81 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		59E30EB51B8562FF007A0B81 /* TweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetViewController.swift; path = ../TweetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E30EA91B855FA0007A0B81 /* Twitter.framework in Frameworks */,
+				59E30EB21B85620F007A0B81 /* TwitterCore.framework in Frameworks */,
+				59E30EAF1B85620F007A0B81 /* Fabric.framework in Frameworks */,
+				59E30EB01B85620F007A0B81 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +93,11 @@
 		592194F81B30FCFA00E4C3C4 = {
 			isa = PBXGroup;
 			children = (
+				59E30EAB1B85620F007A0B81 /* Fabric.framework */,
+				59E30EAC1B85620F007A0B81 /* TwitterKit.framework */,
+				59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */,
+				59E30EAE1B85620F007A0B81 /* TwitterCore.framework */,
+				59E30EA81B855FA0007A0B81 /* Twitter.framework */,
 				592195331B3103D800E4C3C4 /* BeTheLight-Bridging-Header.h */,
 				592195031B30FCFA00E4C3C4 /* Be The Light */,
 				592195191B30FCFA00E4C3C4 /* Be The LightTests */,
@@ -99,6 +120,7 @@
 				5921952F1B31034400E4C3C4 /* SWReveal */,
 				592195061B30FCFA00E4C3C4 /* AppDelegate.swift */,
 				592195081B30FCFA00E4C3C4 /* ViewController.swift */,
+				59E30EB51B8562FF007A0B81 /* TweetViewController.swift */,
 				592195341B31088300E4C3C4 /* FrontPage.swift */,
 				5921950A1B30FCFA00E4C3C4 /* Main.storyboard */,
 				59CAE8FD1B420D2A00B93B56 /* MenuController.swift */,
@@ -142,8 +164,8 @@
 		5921952F1B31034400E4C3C4 /* SWReveal */ = {
 			isa = PBXGroup;
 			children = (
-				592195301B31035800E4C3C4 /* SWRevealViewController.h */,
-				592195311B31035800E4C3C4 /* SWRevealViewController.m */,
+				59BB68C51B5C048D001469C7 /* SWRevealViewController.h */,
+				59BB68C61B5C048D001469C7 /* SWRevealViewController.m */,
 			);
 			name = SWReveal;
 			sourceTree = "<group>";
@@ -158,6 +180,7 @@
 				592194FD1B30FCFA00E4C3C4 /* Sources */,
 				592194FE1B30FCFA00E4C3C4 /* Frameworks */,
 				592194FF1B30FCFA00E4C3C4 /* Resources */,
+				59E30EAA1B8561C6007A0B81 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,6 +258,7 @@
 				592195391B310B2B00E4C3C4 /* menu.png in Resources */,
 				592195111B30FCFA00E4C3C4 /* LaunchScreen.xib in Resources */,
 				5921950E1B30FCFA00E4C3C4 /* Images.xcassets in Resources */,
+				59E30EB11B85620F007A0B81 /* TwitterKitResources.bundle in Resources */,
 				592195271B30FFE300E4C3C4 /* cover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +272,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59E30EAA1B8561C6007A0B81 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ec8396849fba61afc4ef45ee11d282f614c338a7 182bf148b2ee4a0db4c3ad1938071b582a9af87a02459d87a7f8f8547deb397e";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		592194FD1B30FCFA00E4C3C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,9 +295,10 @@
 			files = (
 				59CAE8FE1B420D2A00B93B56 /* MenuController.swift in Sources */,
 				592195351B31088300E4C3C4 /* FrontPage.swift in Sources */,
+				59E30EB61B8562FF007A0B81 /* TweetViewController.swift in Sources */,
 				592195091B30FCFA00E4C3C4 /* ViewController.swift in Sources */,
 				592195071B30FCFA00E4C3C4 /* AppDelegate.swift in Sources */,
-				592195321B31035800E4C3C4 /* SWRevealViewController.m in Sources */,
+				59BB68C71B5C048D001469C7 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Be The Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Be The Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
