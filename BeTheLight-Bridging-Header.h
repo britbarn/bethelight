@@ -8,8 +8,11 @@
 
 
 #import "SWRevealViewController.h"
+#import "YTPlayerView.h"
 #ifndef Be_The_Light_BeTheLight_Bridging_Header_h
 #define Be_The_Light_BeTheLight_Bridging_Header_h
+
+
 
 
 #endif

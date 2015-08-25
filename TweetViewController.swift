@@ -15,6 +15,7 @@ class TweetViewController:
 TWTRTimelineViewController {
     
     @IBOutlet var menuButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -25,6 +26,7 @@ TWTRTimelineViewController {
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
     }
+        
        TWTRTweetView.appearance().theme = .Dark
     
         Twitter.sharedInstance().logInGuestWithCompletion { session, error in

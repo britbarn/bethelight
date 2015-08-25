@@ -100,7 +100,7 @@
                                                         <constraint firstAttribute="width" constant="244" id="7p1-7x-zvw"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -122,7 +122,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Twitter Feed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCX-gh-q3g">
                                                     <rect key="frame" x="13" y="11" width="94" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -141,6 +141,9 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i2B-dv-05M" id="pG2-Xl-7Wd">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cCF-hV-vK5" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1U3-6r-4LC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -175,6 +178,22 @@
             <point key="canvasLocation" x="2076" y="387"/>
         </scene>
         <!--Navigation Controller-->
+        <scene sceneID="bKw-4X-Pt6">
+            <objects>
+                <navigationController id="cCF-hV-vK5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0oJ-Rn-rSl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7JR-XL-6u0" kind="relationship" relationship="rootViewController" id="oOG-gy-MtF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v1T-1m-8Ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="1804"/>
+        </scene>
+        <!--Navigation Controller-->
         <scene sceneID="bze-Ec-4ro">
             <objects>
                 <navigationController id="hEw-rl-bAe" sceneMemberID="viewController">
@@ -183,7 +202,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="cYP-XP-x9E" kind="relationship" relationship="rootViewController" id="kN3-DZ-hUv"/>
+                        <segue destination="zHi-7J-Ypi" kind="relationship" relationship="rootViewController" id="95K-m0-uek"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ix-lo-e3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -191,28 +210,49 @@
             <point key="canvasLocation" x="1834" y="1112"/>
         </scene>
         <!--Tweet View Controller-->
-        <scene sceneID="l3b-O3-zwB">
+        <scene sceneID="pIQ-wg-67Y">
             <objects>
-                <viewController id="cYP-XP-x9E" customClass="TweetViewController" customModule="Be_The_Light" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zHi-7J-Ypi" customClass="TweetViewController" customModule="Be_The_Light" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9mh-NO-Gcv"/>
-                        <viewControllerLayoutGuide type="bottom" id="1JK-7r-pHs"/>
+                        <viewControllerLayoutGuide type="top" id="xym-vI-HDT"/>
+                        <viewControllerLayoutGuide type="bottom" id="WJ2-Pa-RWe"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="g2s-Rf-c0I">
+                    <view key="view" contentMode="scaleToFill" id="0lv-gH-fkL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qg9-YD-S5b">
-                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="ySh-FJ-PcW"/>
+                    <navigationItem key="navigationItem" id="1BZ-ar-jrs">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="4zN-bj-DiQ"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="ySh-FJ-PcW" id="Pkc-I1-rrH"/>
+                        <outlet property="menuButton" destination="4zN-bj-DiQ" id="tcs-nF-TpD"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lPk-cs-Bgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3TB-cU-4Qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2497" y="1115"/>
+            <point key="canvasLocation" x="2544" y="1105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9E7-Yu-rAz">
+            <objects>
+                <viewController id="7JR-XL-6u0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lWX-eU-wMx"/>
+                        <viewControllerLayoutGuide type="bottom" id="luL-j7-8ZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G9H-hD-m68">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7s6-Hq-hmv">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="B7g-ag-Arw"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mfI-pU-8Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="1804"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u7J-lM-DcU">
