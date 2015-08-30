@@ -18,6 +18,10 @@
 		592195391B310B2B00E4C3C4 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195361B310B2B00E4C3C4 /* menu.png */; };
 		5921953A1B310B2B00E4C3C4 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195371B310B2B00E4C3C4 /* menu@2x.png */; };
 		5921953B1B310B2B00E4C3C4 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592195381B310B2B00E4C3C4 /* menu@3x.png */; };
+		5957B55E1B907BB60056F23B /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5957B55D1B907BB60056F23B /* YTPlayerView.m */; };
+		5957B5601B907BD10056F23B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 5957B55F1B907BD10056F23B /* Assets */; };
+		5957B5681B915A4A0056F23B /* YTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5957B5671B915A4A0056F23B /* YTViewController.swift */; };
+		5957B56A1B9162A00056F23B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5957B5691B9162A00056F23B /* PlayerViewController.swift */; };
 		59BB68C71B5C048D001469C7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BB68C61B5C048D001469C7 /* SWRevealViewController.m */; };
 		59CAE8FA1B42094B00B93B56 /* E book cover volume 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59CAE8F91B42094B00B93B56 /* E book cover volume 2.jpg */; };
 		59CAE8FE1B420D2A00B93B56 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CAE8FD1B420D2A00B93B56 /* MenuController.swift */; };
@@ -27,8 +31,6 @@
 		59E30EB11B85620F007A0B81 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */; };
 		59E30EB21B85620F007A0B81 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E30EAE1B85620F007A0B81 /* TwitterCore.framework */; };
 		59E30EB61B8562FF007A0B81 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E30EB51B8562FF007A0B81 /* TweetViewController.swift */; };
-		59FFEAC61B8A4FB60030F504 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FFEAC51B8A4FB60030F504 /* YTPlayerView.m */; };
-		59FFEAC91B8A52310030F504 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 59FFEAC81B8A52310030F504 /* YTPlayerView-iframe-player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,11 @@
 		592195361B310B2B00E4C3C4 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		592195371B310B2B00E4C3C4 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		592195381B310B2B00E4C3C4 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		5957B55C1B907BB60056F23B /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = ../YTPlayerView.h; sourceTree = "<group>"; };
+		5957B55D1B907BB60056F23B /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = ../YTPlayerView.m; sourceTree = "<group>"; };
+		5957B55F1B907BD10056F23B /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../Assets; sourceTree = "<group>"; };
+		5957B5671B915A4A0056F23B /* YTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTViewController.swift; sourceTree = "<group>"; };
+		5957B5691B9162A00056F23B /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		59BB68C51B5C048D001469C7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		59BB68C61B5C048D001469C7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		59CAE8F91B42094B00B93B56 /* E book cover volume 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E book cover volume 2.jpg"; sourceTree = "<group>"; };
@@ -68,9 +75,6 @@
 		59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		59E30EAE1B85620F007A0B81 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		59E30EB51B8562FF007A0B81 /* TweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetViewController.swift; path = ../TweetViewController.swift; sourceTree = "<group>"; };
-		59FFEAC41B8A4FB60030F504 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = "../../../youtube-ios-player-helper-master/Classes/YTPlayerView.h"; sourceTree = "<group>"; };
-		59FFEAC51B8A4FB60030F504 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = "../../../youtube-ios-player-helper-master/Classes/YTPlayerView.m"; sourceTree = "<group>"; };
-		59FFEAC81B8A52310030F504 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,6 @@
 		592194F81B30FCFA00E4C3C4 = {
 			isa = PBXGroup;
 			children = (
-				59FFEAC81B8A52310030F504 /* YTPlayerView-iframe-player.html */,
 				59E30EAB1B85620F007A0B81 /* Fabric.framework */,
 				59E30EAC1B85620F007A0B81 /* TwitterKit.framework */,
 				59E30EAD1B85620F007A0B81 /* TwitterKitResources.bundle */,
@@ -123,13 +126,15 @@
 		592195031B30FCFA00E4C3C4 /* Be The Light */ = {
 			isa = PBXGroup;
 			children = (
-				59FFEAC71B8A4FC50030F504 /* Youtube */,
+				5957B5611B907BF10056F23B /* Youtube */,
 				5921952F1B31034400E4C3C4 /* SWReveal */,
 				592195061B30FCFA00E4C3C4 /* AppDelegate.swift */,
+				5957B5671B915A4A0056F23B /* YTViewController.swift */,
 				592195081B30FCFA00E4C3C4 /* ViewController.swift */,
 				59E30EB51B8562FF007A0B81 /* TweetViewController.swift */,
 				592195341B31088300E4C3C4 /* FrontPage.swift */,
 				5921950A1B30FCFA00E4C3C4 /* Main.storyboard */,
+				5957B5691B9162A00056F23B /* PlayerViewController.swift */,
 				59CAE8FD1B420D2A00B93B56 /* MenuController.swift */,
 				5921950D1B30FCFA00E4C3C4 /* Images.xcassets */,
 				5921950F1B30FCFA00E4C3C4 /* LaunchScreen.xib */,
@@ -177,11 +182,12 @@
 			name = SWReveal;
 			sourceTree = "<group>";
 		};
-		59FFEAC71B8A4FC50030F504 /* Youtube */ = {
+		5957B5611B907BF10056F23B /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				59FFEAC41B8A4FB60030F504 /* YTPlayerView.h */,
-				59FFEAC51B8A4FB60030F504 /* YTPlayerView.m */,
+				5957B55F1B907BD10056F23B /* Assets */,
+				5957B55C1B907BB60056F23B /* YTPlayerView.h */,
+				5957B55D1B907BB60056F23B /* YTPlayerView.m */,
 			);
 			name = Youtube;
 			sourceTree = "<group>";
@@ -267,12 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FFEAC91B8A52310030F504 /* YTPlayerView-iframe-player.html in Resources */,
 				5921950C1B30FCFA00E4C3C4 /* Main.storyboard in Resources */,
 				59CAE8FA1B42094B00B93B56 /* E book cover volume 2.jpg in Resources */,
 				5921953A1B310B2B00E4C3C4 /* menu@2x.png in Resources */,
 				5921953B1B310B2B00E4C3C4 /* menu@3x.png in Resources */,
 				592195391B310B2B00E4C3C4 /* menu.png in Resources */,
+				5957B5601B907BD10056F23B /* Assets in Resources */,
 				592195111B30FCFA00E4C3C4 /* LaunchScreen.xib in Resources */,
 				5921950E1B30FCFA00E4C3C4 /* Images.xcassets in Resources */,
 				59E30EB11B85620F007A0B81 /* TwitterKitResources.bundle in Resources */,
@@ -315,8 +321,10 @@
 				59E30EB61B8562FF007A0B81 /* TweetViewController.swift in Sources */,
 				592195091B30FCFA00E4C3C4 /* ViewController.swift in Sources */,
 				592195071B30FCFA00E4C3C4 /* AppDelegate.swift in Sources */,
+				5957B56A1B9162A00056F23B /* PlayerViewController.swift in Sources */,
+				5957B5681B915A4A0056F23B /* YTViewController.swift in Sources */,
 				59BB68C71B5C048D001469C7 /* SWRevealViewController.m in Sources */,
-				59FFEAC61B8A4FB60030F504 /* YTPlayerView.m in Sources */,
+				5957B55E1B907BB60056F23B /* YTPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
